@@ -7,7 +7,7 @@
       <Resume
           :label="'Ahorro total'"
           :totalAmount="1000000"
-          :amount="100"
+          :amount="amount"
       />
     </template>
     <template #movements>
@@ -29,6 +29,11 @@ export default {
     AppHeader,
     Resume,
     Movements
+  },
+  data() {
+    return {
+      amount: null
+    }
   }
 }
 </script>
