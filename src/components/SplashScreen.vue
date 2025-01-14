@@ -8,19 +8,19 @@
 </template>
 
 <style scoped>
-.splashscreen {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 100vh;
-}
+  .splashscreen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
 
-h1 {
-  color: var(--brand-blue);
-}
+  h1 {
+    color: var(--brand-blue);
+  }
 
-h1 span {
-  color: var(--brand-green);
-}
+  h1 span {
+    color: var(--brand-green);
+  }
 </style>
