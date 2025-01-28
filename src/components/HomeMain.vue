@@ -9,7 +9,7 @@
           <p>Graphic</p>
         </template>
         <template #action>
-          <p>Action</p>
+          <Action />
         </template>
       </Resume>
     </template>
@@ -25,12 +25,14 @@
   import AppHeader from './HeaderMain.vue';
   import Resume from './Resume/Index.vue';
   import Movements from './Movements/Index.vue';
+  import Action from './ActionMain.vue';
 
   export default {
     components: {
       Layout,
       AppHeader,
       Resume,
+      Action,
       Movements
     },
     data() {
